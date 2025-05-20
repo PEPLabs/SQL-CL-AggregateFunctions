@@ -44,6 +44,7 @@ public class AggregateFunctionsActivity {
     public double problem1() {
         /**
          * Problem 1: use the SUM() aggregate function to output the total of all salaries found in the table.
+         * NOTE: Do not change anything in this code. You should write your sql statement on a single line (do not use multi-line formatting) in the problem1.sql file.
          * Note: the output should not contain any other info but the sum.
          */
         String sql = FileUtil.parseSQLFile("problem1.sql");
@@ -67,6 +68,7 @@ public class AggregateFunctionsActivity {
     public int problem2() {
         /**
          * Problem 2: use the COUNT() aggregate function to output the number of employees with the last name "Smith".
+         * NOTE: Do not change anything in this code. You should write your sql statement on a single line (do not use multi-line formatting) in the problem2.sql file.
          * Note: the output should not contain any other info but the count.
          */
         String sql = FileUtil.parseSQLFile("problem2.sql");
@@ -92,6 +94,7 @@ public class AggregateFunctionsActivity {
     public double problem3() {
         /**
          * Problem 3: use the MIN() aggregate function to return the lowest salary.
+         * NOTE: Do not change anything in this code. You should write your sql statement on a single line (do not use multi-line formatting) in the problem3.sql file.
          * Note: the output should not contain any other info but the salary.
          */
         String sql = FileUtil.parseSQLFile("problem3.sql");
@@ -116,6 +119,7 @@ public class AggregateFunctionsActivity {
     public double problem4() {
         /**
          * Problem 4: use the MAX() aggregate function to return the highest salary.
+         * NOTE: Do not change anything in this code. You should write your sql statement on a single line (do not use multi-line formatting) in the problem4.sql file.
          * Note: the output should not contain any other info but the salary.
          */
         String sql = FileUtil.parseSQLFile("problem4.sql");
